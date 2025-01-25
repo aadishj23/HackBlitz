@@ -1,7 +1,9 @@
 import React from 'react';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
+    <>
     <div className="relative flex flex-col items-center justify-center h-screen bg-gradient-to-br from-blue-900 via-black to-gray-900 text-white text-center overflow-hidden">
       {/* Animated Background Particles */}
       <div className="absolute inset-0 pointer-events-none">
@@ -56,6 +58,10 @@ function App() {
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-black opacity-40"></div>
     </div>
+    <div className='bg-black text-white'>
+      <Navbar/>
+    </div>
+    </>
   );
 }
 
