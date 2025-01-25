@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function App() {
   return (
     <div className="relative flex flex-col items-center justify-center h-screen bg-gradient-to-br from-blue-900 via-black to-gray-900 text-white text-center overflow-hidden">
@@ -55,6 +56,7 @@ function App() {
 
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-black opacity-40"></div>
+      
     </div>
   );
 }
