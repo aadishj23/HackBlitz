@@ -3,7 +3,6 @@ import React from 'react';
 function App() {
   return (
     <div className="relative flex flex-col items-center justify-center h-screen bg-gradient-to-br from-blue-900 via-black to-gray-900 text-white text-center overflow-hidden">
-
       {/* Animated Background Particles */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute w-96 h-96 bg-blue-500 opacity-25 rounded-full blur-3xl top-16 left-16 animate-slow-pulse"></div>
@@ -21,16 +20,6 @@ function App() {
         📅 26-27 April
       </div>
 
-      {/* Apply with Devfolio Button */}
-      <a
-        href="https://hackblitz2k25.devfolio.co/"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="mt-8 relative z-10 px-6 py-3 bg-gradient-to-r from-green-500 to-teal-500 text-white text-lg md:text-xl rounded-full shadow-lg font-semibold hover:scale-105 transition-transform duration-300"
-      >
-        Apply with Devfolio
-      </a>
-
       {/* Coming Soon Message */}
       <p className="text-xl md:text-2xl mt-8 relative z-10 text-gray-300 font-medium animate-fade-in">
         Website Coming Soon...
@@ -40,6 +29,29 @@ function App() {
       <p className="text-lg md:text-xl mt-2 relative z-10 text-gray-400 font-light">
         Stay tuned for something amazing!
       </p>
+
+      {/* Buttons Section */}
+      <div className="flex flex-col md:flex-row gap-6 mt-12 relative z-10">
+        {/* Apply with Devfolio */}
+        <a
+          href="https://hackblitz2k25.devfolio.co/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-3 bg-gradient-to-r from-[#526FFF] to-[#0D8EFF] text-white text-lg md:text-xl rounded-full shadow-lg font-semibold hover:scale-105 transition-transform duration-300"
+        >
+          Apply with Devfolio
+        </a>
+
+        {/* Call for Sponsor */}
+        <a
+          href="https://forms.gle/s7p5aKpjJ8F1Ym2K8"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-3 bg-gradient-to-r from-green-500 to-teal-500 text-white text-lg md:text-xl rounded-full shadow-lg font-semibold hover:scale-105 transition-transform duration-300"
+        >
+          Call for Sponsors
+        </a>
+      </div>
 
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-black opacity-40"></div>
