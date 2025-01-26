@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import FAQ from './components/FAQ';
 
 function App() {
   return (
@@ -60,6 +61,7 @@ function App() {
     </div>
     <div className='bg-black text-white'>
       <Navbar/>
+      <FAQ/>
     </div>
     </>
   );
