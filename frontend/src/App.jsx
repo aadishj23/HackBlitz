@@ -1,5 +1,6 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar'
+import Hero from "./components/Hero"
 
 function App() {
   return (
@@ -60,6 +61,7 @@ function App() {
     </div>
     <div className='bg-black text-white'>
       <Navbar/>
+      <Hero/>
     </div>
     </>
   );
