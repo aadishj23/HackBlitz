@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import FAQ from './components/FAQ';
+import ContactUs from './components/ContactUs';
 
 function App() {
   return (
@@ -62,6 +63,7 @@ function App() {
     <div className='bg-black text-white'>
       <Navbar/>
       <FAQ/>
+      <ContactUs/>
     </div>
     </>
   );
