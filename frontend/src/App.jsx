@@ -6,7 +6,7 @@ import About from './components/About';
 function App() {
   return (
     <>
-    <div className="relative flex flex-col items-center justify-center h-screen bg-gradient-to-br from-blue-900 via-black to-gray-900 text-white text-center overflow-hidden">
+    <div className="relative flex flex-col items-center justify-center h-screen bg-gradient-to-br from-blue-900 via-black to-gray-900 text-white text-center overflow-hidden max-md:w-full">
       {/* Animated Background Particles */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute w-96 h-96 bg-blue-500 opacity-25 rounded-full blur-3xl top-16 left-16 animate-slow-pulse"></div>
@@ -60,7 +60,7 @@ function App() {
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-black opacity-40"></div>
     </div>
-    <div className='bg-black text-white'>
+    <div className='bg-black text-white max-lg:w-full md:w-full'>
       <Navbar/>
       <Hero/>
       <About/>
