@@ -33,7 +33,7 @@ function Navbar() {
                                 key={index}
                                 className="mx-5 inline-block relative group text-center cursor-pointer"
                             >
-                                <a href={`#${item.id}`} className="hover:underline">
+                                <a href={`#${item.id}`}>
                                     {item.name}
                                 </a>
                                 <span className="absolute inset-x-0 bottom-0 h-[2px] bg-gray-400 scale-x-0 origin-bottom-center transition-transform duration-300 ease-out group-hover:scale-x-100 group-hover:origin-bottom-center cursor-pointer"></span>
