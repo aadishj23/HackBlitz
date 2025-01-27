@@ -33,7 +33,7 @@ function App() {
         <FAQ />
         <PrizesSection />
         <SponsorsSection />
-        {/* <TeamMain /> */}
+        <TeamMain />
         <ContactUs />
         <Footer />
       </div>
