@@ -1,15 +1,23 @@
 import React from 'react';
+import AIImage from "../assets/Cards/AI.png";
+import CloudImage from "../assets/Cards/cloud.png";
+import EdTechImage from "../assets/Cards/EdTech.png";
+import FinTechImage from "../assets/Cards/Fintech.png";
+import HealthTechImage from "../assets/Cards/HealthTech.png";
+import StudentInnovationImage from "../assets/Cards/Student innovation.png";
+import VRImage from "../assets/Cards/VR.png";
+import Web3Image from "../assets/Cards/Web3.png";
 
 function Theme() {
   const cards = [
-    { id: 1, img: "/src/assets/Cards/AI.png", text: "AI" },
-    { id: 2, img: "/src/assets/Cards/cloud.png", text: "Cloud" },
-    { id: 3, img: "/src/assets/Cards/EdTech.png", text: "EdTech" },
-    { id: 4, img: "/src/assets/Cards/Fintech.png", text: "FinTech" },
-    { id: 5, img: "/src/assets/Cards/HealthTech.png", text: "HealthTech" },
-    { id: 6, img: "/src/assets/Cards/Student innovation.png", text: "Student Innovation" },
-    { id: 7, img: "/src/assets/Cards/VR.png", text: "VR" },
-    { id: 8, img: "/src/assets/Cards/Web3.png", text: "Web3" },
+    { id: 1, img: AIImage,  text: "AI" },
+    { id: 2, img: CloudImage, text: "Cloud" },
+    { id: 3, img: EdTechImage, text: "EdTech" },
+    { id: 4, img: FinTechImage, text: "FinTech" },
+    { id: 5, img: HealthTechImage, text: "HealthTech" },
+    { id: 6, img: StudentInnovationImage, text: "Student Innovation" },
+    { id: 7, img: VRImage, text: "VR" },
+    { id: 8, img: Web3Image, text: "Web3" },
   ];
 
   return (

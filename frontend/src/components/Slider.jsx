@@ -1,11 +1,16 @@
 import React, { useState, useEffect } from "react";
+import Image1 from "../assets/images/image1.jpg";
+import Image2 from "../assets/images/image2.jpg";
+import Image3 from "../assets/images/image3.jpg";
+import Image4 from "../assets/images/image4.jpg";
+import Image5 from "../assets/images/image5.jpg";
 
 const images = [
-  "/src/assets/images/image1.jpg",
-    "/src/assets/images/image2.jpg",
-    "/src/assets/images/image3.jpg",
-    "/src/assets/images/image4.jpg",
-    "/src/assets/images/image5.jpg",
+  Image1,
+  Image2,
+  Image3,
+  Image4,
+  Image5
 ];
 
 const Carousel = () => {
