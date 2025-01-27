@@ -10,9 +10,14 @@ function Hero(){
                 <img src={anveshanlogo} alt="anveshanlogo" className='max-lg:scale-90 '/>
                 <p className='mt-3 text-lg'>Presents</p>
                 <img src={hackblitzbanner} alt="hackblitz" className='-mt-4 max-lg:scale-90'/>
-                <span className='flex -mt-8 text-2xl max-lg:mt-auto '><p className='mr-2 text-yellow-600'>8th-9th </p>April</span>
+                <span className='flex -mt-8 text-2xl max-lg:mt-auto '><p className='mr-2 text-yellow-600'>26th-27th </p>April</span>
                 <div className='flex justify-evenly items-center mt-20 max-md:flex-col max-lg:gap-4'>
-                    <a href="#" className='flex items-center mr-28 bg-[#3770FF] p-3 rounded-3xl hover:scale-105 transition-transform duration-200 max-lg:mr-0'>
+                    <a
+                        href="https://hackblitz2k25.devfolio.co/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center px-6 py-3 bg-gradient-to-r from-[#526FFF] to-[#0D8EFF] text-white text-lg md:text-xl rounded-full shadow-lg font-semibold hover:scale-105 transition-transform duration-300 md:mr-10"
+                    >
                         <img src={devfolio} alt="devfolio" className='mr-2'/>
                         Apply with Devfolio
                     </a>

@@ -22,9 +22,15 @@ function SponsorsSection() {
       ))}
 
       <div className="w-full md:w-8/12 flex justify-center md:justify-end mt-8">
-        <button className="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-md">
-          Call for Sponsors
-        </button>
+        <a
+          href="https://forms.gle/s7p5aKpjJ8F1Ym2K8"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <button className="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-md">
+            Call for Sponsors
+          </button>
+        </a>
       </div>
     </div>
   );
