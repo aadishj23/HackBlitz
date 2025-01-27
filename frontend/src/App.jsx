@@ -1,4 +1,6 @@
-import React from 'react';
+import React from 'react'
+import Theme from './components/Theme';
+import Carousel from './components/Slider';
 import Navbar from './components/Navbar';
 import FAQ from './components/FAQ';
 import ContactUs from './components/ContactUs';
@@ -60,11 +62,15 @@ function App() {
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-black opacity-40"></div>
     </div>
+
+    <div className='bg-black text-white'></div>
+    
     <div className='bg-black text-white'>
       <Navbar/>
+      <Carousel/>
+    <Theme/>
       <FAQ/>
       <ContactUs/>
-    </div>
     </>
   );
 }
