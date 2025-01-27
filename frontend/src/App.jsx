@@ -25,18 +25,33 @@ function App() {
 
       {/* Additional Sections */}
       <div className="bg-black text-white">
-        <Navbar />
-        <Hero />
-        <About />
-        <Carousel />
-        <Theme />
-        <FAQ />
-        <PrizesSection />
-        <SponsorsSection />
-        <TeamMain />
-        <ContactUs />
-        <Footer />
-      </div>
+                <Navbar />
+                <section id="hero">
+                    <Hero />
+                </section>
+                <section id="about">
+                    <About />
+                </section>
+                <section id="theme">
+                    <Theme />
+                </section>
+                <section id="prizes">
+                    <PrizesSection />
+                </section>
+                <section id="sponsors">
+                    <SponsorsSection />
+                </section>
+                <section id="team">
+                    <TeamMain />
+                </section>
+                <section id="faq">
+                    <FAQ />
+                </section>
+                <section id="contact">
+                    <ContactUs />
+                </section>
+                <Footer />
+            </div>
     </>
   );
 }
