@@ -61,7 +61,7 @@ function App() {
       <div className="absolute inset-0 bg-black opacity-40"></div>
     </div>
     <div className='bg-black text-white'>
-      <Navbar/>
+      {/* <Navbar/> */}
       <FAQ/>
       <ContactUs/>
     </div>
