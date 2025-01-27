@@ -48,18 +48,22 @@ const FAQ = () => {
             >
               <button
                 onClick={() => toggleFAQ(index)}
-                className="w-full flex justify-between items-center px-5 py-4 bg-gray-800 hover:bg-gray-700 focus:outline-none"
+                className="w-full flex flex-col items-start px-5 py-4 bg-gray-800 hover:bg-gray-700 focus:outline-none"
               >
-                <span className="text-lg font-medium">{faq.question}</span>
-                <span
-                  className={`w-6 h-6 flex items-center justify-center rounded-full ${
-                    openIndex === index
-                      ? "bg-red-500 text-white"
-                      : "bg-gray-600 text-gray-300"
-                  }`}
-                >
-                  {openIndex === index ? "−" : "+"}
-                </span>
+                <div className="flex justify-between w-full items-center">
+                  <span className="text-lg font-medium text-left">
+                    {faq.question}
+                  </span>
+                  <span
+                    className={`w-6 h-6 flex items-center justify-center rounded-full ${
+                      openIndex === index
+                        ? "bg-red-500 text-white"
+                        : "bg-gray-600 text-gray-300"
+                    }`}
+                  >
+                    {openIndex === index ? "−" : "+"}
+                  </span>
+                </div>
               </button>
               {openIndex === index && (
                 <div className="px-5 py-4 bg-gray-900">

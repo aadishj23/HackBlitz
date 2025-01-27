@@ -93,13 +93,13 @@ function TeamMain() {
             <div className=' max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
                 <h1 className="pt-20 text-center bg-gradient-to-b from-white via-white to-[#FF8A00] bg-clip-text text-transparent text-5xl md:text-7xl font-bold">MEET THE TEAM</h1>
                 <div className='py-16'>
-                    <h1 className='text-5xl font-bold text-center mb-4 text-white'>Lead Organisers</h1>
+                    <h1 className='text-5xl font-bold text-center mb-4 text-white'>LEAD ORGANISERS</h1>
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 justify-items-center text-center'>
                         {seniorCouncil}
                     </div>
                 </div>
                 <div className='py-16'>
-                    <h1 className='text-5xl font-bold text-center mb-4 text-white'>Co-Organisers</h1>
+                    <h1 className='text-5xl font-bold text-center mb-4 text-white'>CO-ORGANISERS</h1>
                     <Slider {...settings} className='text-center gap-10 lg:pl-20'>
                         {juniorCouncil}
                     </Slider>                
