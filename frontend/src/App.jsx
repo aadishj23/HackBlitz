@@ -4,6 +4,9 @@ import Carousel from './components/Slider';
 import Navbar from './components/Navbar';
 import FAQ from './components/FAQ';
 import ContactUs from './components/ContactUs';
+import Footer from './components/Footer';
+import PrizesSection from './components/prizes';
+import SponsorsSection from './components/Sponsors';
 
 function App() {
   return (
@@ -69,7 +72,10 @@ function App() {
         <Carousel />
         <Theme />
         <FAQ />
+        <PrizesSection />
+        <SponsorsSection />
         <ContactUs />
+        <Footer />
       </div>
     </>
   );
