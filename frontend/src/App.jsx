@@ -9,6 +9,7 @@ import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import PrizesSection from './components/prizes';
 import SponsorsSection from './components/Sponsors';
+import TeamMain from './components/team';
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <FAQ />
         <PrizesSection />
         <SponsorsSection />
+        {/* <TeamMain /> */}
         <ContactUs />
         <Footer />
       </div>
