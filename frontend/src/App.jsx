@@ -35,6 +35,7 @@ function App() {
                 <section id="theme">
                     <Theme />
                 </section>
+                <Carousel />
                 <section id="prizes">
                     <PrizesSection />
                 </section>
