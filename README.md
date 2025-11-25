@@ -1,4 +1,3 @@
 # HackBlitz
 
-Website - [https://hackblitz.anveshan.dev/
-](https://hackblitz.aadish.tech/)
+Website - https://hackblitz.aadishjain.dev/
